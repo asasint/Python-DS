@@ -47,19 +47,3 @@ plt.gca().set_title("Population of Uzbekistan")
 ax4.set_xticklabels(xticklabels, rotation = 45)
 
 ax4.plot(df4.Year, df4.Value)
-
-
-ax5 = fig.add_subplot(2,3,5)
-plt.gca().set_title("Population of United States")
-#plt.xlim(1950, 2018)
-ax5.set_xticklabels(xticklabels, rotation = 45)
-
-ax5.plot(df5.Year, df5.Value)
-
-ax6 = fig.add_subplot(2,3,6)
-plt.gca().set_title("Population of Mexico")
-#plt.xlim(1950, 2018)
-ax6.set_xticklabels(xticklabels, rotation = 45)
-
-ax6.plot(df6.Year, df6.Value)
-plt.show()
