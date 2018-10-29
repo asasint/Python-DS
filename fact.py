@@ -1,6 +1,4 @@
-
-#Program 2
-
+#Program to find factorial of a number
 fact=1
 def factorial(n):
     global fact
