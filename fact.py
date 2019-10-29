@@ -1,4 +1,5 @@
 #Program to find factorial of a number
+import numpy as np
 fact=1
 def factorial(n):
     global fact
