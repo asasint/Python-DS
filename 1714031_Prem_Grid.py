@@ -11,8 +11,6 @@ df1=df[df.CountryName == 'India']
 #plt.plot(df1.Year,df1.Value)
 #plt.show()
 df2=df[df.CountryName =='China']
-df3=df[df.CountryName== "Arab World"]
-df4=df[df.CountryName=="Uzbekistan"]
 df5=df[df.CountryName=="United States"]
 df6=df[df.CountryName=="Mexico"]
 
