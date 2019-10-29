@@ -19,3 +19,9 @@ print ("Input array : \n", arr)
   
 radval = np.radians(arr)   
 print ("\n Radian value : \n", radval)   
+
+import numpy as np    
+    
+import numpy.matlib    
+    
+print(numpy.matlib.zeros((3,3),int,'C')) 
